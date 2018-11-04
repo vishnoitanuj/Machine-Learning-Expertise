@@ -1,8 +1,8 @@
-## Random Forest
+# Random Forest
 
 Ensemble Learning: Take multiple algorithms or an algo multiple times to make a more powerful model
 
-# Steps:
+### Steps:
 1) Pick at random K data points from the training set
 2) Build the DT associated to these K data points
 3) Choose the number Ntree of tree you want to build and repeat steps 1 & 2
