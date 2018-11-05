@@ -10,3 +10,9 @@ Ensemble Learning: Take multiple algorithms or an algo multiple times to make a 
 
 Random Forest is a team of Decision Trees.
 #### Note: The number of steps does not depend on the number of tress. The average of decision of each tree is noted.
+
+# Evaluation Regression Models
+
+## R-Squared Intitution
+
+SS<sub>res</sub> = SUM (y<sub>i</sub> - y<sub>pred<sub>i</sub></sub>)<sup>2</sup>
