@@ -8,12 +8,13 @@ X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
                 
 
-from sklearn.tree import DecisionTreeRegressor
-regressor = DecisionTreeRegressor(random_state=0)
+from sklearn.ensemble import RandomForestRegressor
+regressor = RandomForestRegressor(n_estimators=300, random_state=0)
 regressor.fit(X,y)
 
 #Predicting the results
 y_pred = regressor.predict(6.5)
+print(y_pred)
 
 #Visualizing the predictions
 X_grid = np.arange(min(X),max(X), 0.01)
