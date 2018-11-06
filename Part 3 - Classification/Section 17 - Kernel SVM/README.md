@@ -8,4 +8,4 @@ Used when data is not linearly seperable. It is possible to draw a bpundary but 
 
 Similarly, we can have many mapping functions like
 
-!(k1.png) !(k2.png)
+![](k1.png) ![](k2.png)
