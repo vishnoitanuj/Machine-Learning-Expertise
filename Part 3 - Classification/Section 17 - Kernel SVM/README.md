@@ -14,4 +14,4 @@ Similarly, we can have many mapping functions like
 
 ## The Gaussian RBF kernel
 
- K (x, l<sup>i<sup>) = e <sup>-(||x -  l<sup>i<sup>||<sup>2</sup>) / (2*\sigma<sup>2</sup>)</sup>
+ K (x, l<sup>i</sup>) = e <sup>-(||x -  l<sup>i<sup>||<sup>2</sup>) / (2*\sigma<sup>2</sup>)</sup>
