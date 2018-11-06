@@ -14,5 +14,4 @@ Similarly, we can have many mapping functions like
 
 ## The Gaussian RBF kernel
 
-$\usepackage{amsmath}
- K (\overrightarrow{x}, \overrightarrow{l<sup>i<sup>}) = e <sup>-(||\overrightarrow{x} -  \overrightarrow{l<sup>i<sup>}||<sup>2</sup>) / (2*\sigma<sup>2</sup>)</sup> $
+ K (x, l<sup>i<sup>) = e <sup>-(||x -  l<sup>i<sup>||<sup>2</sup>) / (2*\sigma<sup>2</sup>)</sup>
