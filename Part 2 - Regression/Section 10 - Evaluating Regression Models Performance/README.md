@@ -34,3 +34,5 @@ Adjusted R<sup>2</sup> = 1 - (1 - R<sup>2</sup>)((n-1)/(n-p-1))
  n = sample size
 
  Adjusted R<sup>2</sup> has a penalizing factor, it penalizes for adding a factor that dont help the model 
+
+##### Note: See adjusted R<sup>2</sup> also while following backward elimination process (p value)
