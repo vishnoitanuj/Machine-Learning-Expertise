@@ -8,6 +8,7 @@
     ],
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.unittestEnabled": true,
-    "python.pythonPath": "/home/vishnoitanuj/miniconda3/envs/CV/bin/python"
+    "python.unitTest.unittestEnabled": false,
+    "python.pythonPath": "/home/vishnoitanuj/miniconda3/envs/CV/bin/python",
+    "python.unitTest.promptToConfigure": false
 }
