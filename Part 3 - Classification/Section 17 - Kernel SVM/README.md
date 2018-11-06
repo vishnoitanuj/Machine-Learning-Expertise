@@ -9,3 +9,6 @@ Used when data is not linearly seperable. It is possible to draw a bpundary but 
 Similarly, we can have many mapping functions like
 
 ![](k1.png) ![](k2.png)
+
+########## Problem here is mapping to a higher dimensional space can be  highly compute-intensive
+
