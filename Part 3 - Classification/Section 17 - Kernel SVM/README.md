@@ -17,3 +17,9 @@ Similarly, we can have many mapping functions like
  K (x, l<sup>i</sup>) = e <sup>-(||x -  l<sup>i<sup>||<sup>2</sup>) / (2*sigma<sup>2</sup>)</sup>
 
  ![](K3.png)
+ ![](k4.png)
+
+ Sigma defines how wide is the circle.
+ It appears to happen in higher dimensional space but mathematically(computationally) it just calculating through formulae. If the K less than 0 it appears one region and other will have another value.
+
+ ![](k5.png)
