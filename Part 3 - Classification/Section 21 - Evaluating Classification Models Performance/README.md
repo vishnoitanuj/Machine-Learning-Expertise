@@ -13,3 +13,12 @@ Accuracy increases, although we did not train. So accuarcy cannot be always trus
 #CAP: Cummulative Accuracy Profile.
 Greater area under the curve, the better is the model.  
 ![](cap.png)
+
+a<sub>p</sub> = area between the perfect model and random model.
+a<sub>r</sub> = area between the good model and random model.
+
+Accuracy Ratio =(AR) a<sub>p</sub> / a<sub>r</sub>.
+AR closer to one better is the model.
+![](cm1.png)
+
+Other option is to draw a 50% line and see where it touches our model(good model) on the y-axis and then make judgement accordingly.
