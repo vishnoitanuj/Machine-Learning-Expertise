@@ -20,7 +20,7 @@ X_test = sc.transform(X_test)
 
 # Fitting Random Forest to the Training set
 from sklearn.ensemble import RandomForestClassifier
-classifier = RandomForestClassifier(n_estimators=100, criterion='entropy')
+classifier = RandomForestClassifier(n_estimators=100, criterion='entropy', random_state=0)
 classifier.fit(X_train, y_train)
 
 # Predicting the Test set results
