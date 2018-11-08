@@ -15,10 +15,10 @@ from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
 
 # Feature Scaling
-from sklearn.preprocessing import StandardScaler
-sc = StandardScaler()
-X_train = sc.partial_fit(X_train)
-X_test = sc.transform(X_test)
+#from sklearn.preprocessing import StandardScaler
+#sc = StandardScaler()
+#X_train = sc.partial_fit(X_train)
+#X_test = sc.transform(X_test)
 
 # Fitting Naive Bayes to the Training set
 from sklearn.naive_bayes import MultinomialNB
@@ -31,6 +31,7 @@ y_pred = classifier.predict(X_test)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+print(cm)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
