@@ -10,4 +10,9 @@ Step 5: Reassign each data point to the new closest centroid. If any reassignmen
 
 ## Selecting number of clusters
 
-The elbow method help select the optimum change, when the changes drop slowly.
+Formulae is:
+![](formulae.png)
+
+The elbow method help select the optimum change, when the changes drop slowly.  
+
+![](wcss.png)
