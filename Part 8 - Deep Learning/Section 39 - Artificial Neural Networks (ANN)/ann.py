@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 dataset = pd.read_csv('Churn_Modelling.csv')
-X = dataset.iloc[:, 3:13].values
-y = dataset.iloc[:, 13].values
+X = dataset.iloc[:, 1:].values
+y = dataset.iloc[:, 0].values
 
-# Encoding categorical data
+#Encoding categorical data
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 labelencoder_X_1 = LabelEncoder()
 X[:, 1] = labelencoder_X_1.fit_transform(X[:, 1])
@@ -36,11 +36,12 @@ classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 're
 # Adding the second hidden layer
 classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu'))
 # Adding the output layer
-classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
+classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))   #if more than two categories use softmax
 # Compiling the ANN
-classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+#If dependent variable has more than two categories(not binary), the loss function will be categorical_crossentropy
+classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])  
 # Fitting the ANN to the Training set
-classifier.fit(X_train, y_train, batch_size = 10, nb_epoch = 100)
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 100)
 
 #Making the predictions and evaluating the model
 
